@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Test Case - Performance Task 10</title>
+        
+        <link rel="stylesheet" type="text/css" href="grid.css">
+        <link rel="stylesheet" type="text/css" href="header_style.css">
+        <link rel="stylesheet" type="text/css" href="main_style.css">
+        <link rel="stylesheet" type="text/css" href="right_style.css">
+        <link rel="icon" type="image/x-icon" href="Images/Test Case Icon.ico">
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+        
+            body {
+                margin: 0px;
+                font-family: 'Open Sans', 'Lato', 'Arial', sans-serif;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--Start of grid-->
+        <div class="grid_container">
+            
+            <!--Header section, incl. the logo and search bar-->
+            <div class="header">
+
+                <!--Logo name-->
+                <a href="index.html" id="logo_link">
+                    <h2 class="logo">TikTokTube
+                        <span>PH</span>
+                    </h2>
+                </a>
+                
+                <!--Search bar-->
+                <form class="search">
+                    <input type="text" id="search_bar" name="search_bar">
+                    <input type="button" id="search_button" name="search_button">
+                </form>
+
+            </div>
+
+            <!--Main section, incl. the video, title, and comments section-->
+            <div class="main">
+
+                <video controls>
+                    <source href="Video/Rickroll - Lofi Remix.mp4">
+                </video>
+
+                <div class="video_info">
+                    <h1 class="video_title">rickroll but it's 3am and you're still doing this PT</h1>
+                    <p class="video_uploader">BigChungusLofiMusic</p>
+                </div>
+                
+                <div class="comments">
+                    <h3 class="comments_title">Comments</h3>
+                    
+                    <!--Comments section table-->
+                    <table class="comments_table">
+                        <tbody>
+                            <!--Comment #1-->
+                            <tr>
+                                <td class="comments_box">
+                                    <div class="name_comment">
+                                        <h4>BrunoMadrigal</h4>
+                                        <p>
+                                            We should never give up talking about this song!
+                                        </p>
+                                    </div>
+                                    <img src="Images/Bruno.jpg" class="profilepic">
+                                </td>
+                            </tr>
+                            
+                            <!--Comment #2-->
+                            <tr>
+                                <td class="comments_box">
+                                    <div class="name_comment">
+                                        <h4>Uncanny Mr Incredible</h4>
+                                        <p>
+                                            Showtime.&nbsp;&nbsp;ᕕ༼⌐■-■༽ᕗ
+                                        </p>
+                                    </div>
+                                    <img src="Images/MrIncredible.jpg" class="profilepic">
+                                </td>
+                            </tr>
+
+                            <!--Comment #3-->
+                            <tr>
+                                <td class="comments_box">
+                                    <div class="name_comment">
+                                        <h4>WeAreNotDead2022</h4>
+                                        <p>
+                                            번역에 전념하는 와우. 칭찬해!
+                                        </p>
+                                    </div>
+                                    <img src="Images/ImStillNotDead.jpg" class="profilepic">
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                </div> <!--End of comments section-->
+
+            </div> <!--End of main section-->
+      
+            <!--Right Section-->
+            <div class="right_menu">
+                <h3>Recommended for you</h3>
+
+                <table class="suggestions_table">
+                    <tbody>
+                            
+                        <tr id="sugg_box_1">
+                            <td class="suggestion_box">
+                                <div class="sugg_thumbnail">
+                                    <img src="Images/AoT.jpg" alt="AoT: The Movie Trailer (fanmade)">
+                                </div>
+
+                                <div class="sugg_info">
+                                    <h4>AoT: The Movie Trailer (fanmade)</h4>
+                                    <p class="sugg_uploader">MasterBOi</p>
+                                    <p class="views_time">8k views | 3 hours ago</p>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr id="sugg_box_2">
+                            <td class="suggestion_box">
+                                <div class="sugg_thumbnail">
+                                    <img src="Images/ShockTax.jpg" alt="Ep. 4 - My IRS Tax Reports!">
+                                </div>
+
+                                <div class="sugg_info">
+                                    <h4>Ep. 4 - My IRS Tax Reports! NEVER BEEN SEEN!</h4>
+                                    <p class="sugg_uploader">The Tax Dude</p>
+                                    <p class="views_time">50m views | 1 week ago</p>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr id="sugg_box_3">
+                            <td class="suggestion_box">
+                                <div class="sugg_thumbnail">
+                                    <img src="Images/MetalLofi.jpg" alt="chill lofi hard metal beats to listen to">
+                                </div>
+
+                                <div class="sugg_info">
+                                    <h4>chill lofi hard metal beats to listen to</h4>
+                                    <p class="sugg_uploader">Lofi is Luxury</p>
+                                    <p class="views_time">32k views | 1 month ago</p>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr id="sugg_box_4">
+                            <td class="suggestion_box">
+                                <div class="sugg_thumbnail">
+                                    <img src="Images/NightSky.jpg" alt="Aliens Are Real! WATCH THIS! (not clickbait)">
+                                </div>
+
+                                <div class="sugg_info">
+                                    <h4>Aliens Are Real! WATCH THIS! (not clickbait)</h4>
+                                    <p class="sugg_uploader">Hogan Mall</p>
+                                    <p class="views_time">8m views | 12 days ago</p>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr id="sugg_box_5">
+                            <td class="suggestion_box">
+                                <div class="sugg_thumbnail">
+                                    <img src="Images/CSS.jfif" alt="CSS Tricks and Techniques - Mark Westerling">
+                                </div>
+
+                                <div class="sugg_info">
+                                    <h4>CSS Tricks and Techniques - Mark Westerling</h4>
+                                    <p class="sugg_uploader">CodingForAll</p>
+                                    <p class="views_time">4k views | 1 hour ago</p>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr id="sugg_box_6">
+                            <td class="suggestion_box">
+                                <div class="sugg_thumbnail">
+                                    <img src="Images/AoT.jpg" alt="AoT: The Movie Official Trailer 2022">
+                                </div>
+
+                                <div class="sugg_info">
+                                    <h4>AoT: The Movie Official Trailer 2022</h4>
+                                    <p class="sugg_uploader">KinemaxTrailers</p>
+                                    <p class="views_time">15m views | 3 hours ago</p>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr id="sugg_box_7">
+                            <td class="suggestion_box">
+                                <div class="sugg_thumbnail">
+                                    <img src="Images/AnimeBetrayal.jpg" alt="Top 10 Anime Betrayals">
+                                </div>
+
+                                <div class="sugg_info">
+                                    <h4>Top 10 Anime Betrayals</h4>
+                                    <p class="sugg_uploader">WatchMojoJojo.com</p>
+                                    <p class="views_time">925 views | 2 years ago</p>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr id="sugg_box_8">
+                            <td class="suggestion_box">
+                                <div class="sugg_thumbnail">
+                                    <img src="Images/KPop.jpg" alt="Darkfuchsia (존시나!) 'I Luv You' Official MV">
+                                </div>
+
+                                <div class="sugg_info">
+                                    <h4>Darkfuchsia (존시나!) 'I Luv Yoo' Official MV</h4>
+                                    <p class="sugg_uploader">KayPop Label</p>
+                                    <p class="views_time">632m views | 1 day ago</p>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr id="sugg_box_9">
+                            <td class="suggestion_box">
+                                <div class="sugg_thumbnail">
+                                    <img src="Images/Guitarist.jpg" alt="AoT: The Movie Trailer (fanmade)">
+                                </div>
+
+                                <div class="sugg_info">
+                                    <h4>Dear Mary Jones (Original Song)</h4>
+                                    <p class="sugg_uploader">Brad Lisbon</p>
+                                    <p class="views_time">549 views | 4 months ago</p>
+                                </div>
+                            </td>
+                        </tr>
+
+                        
+
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+    </body>
+</html>

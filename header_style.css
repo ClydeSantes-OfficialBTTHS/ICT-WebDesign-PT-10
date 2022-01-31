@@ -1,0 +1,69 @@
+.header {
+    padding: 1.4rem 1.25rem;
+    max-width: 100%;
+    
+    height: 1.875rem;
+
+    box-shadow: 0px 0px 10px 0px rgb(165, 165, 165);
+}
+
+#logo_link {
+    text-decoration: none;
+}
+
+/* Removes underline and purple color to visited hyperlink */
+#logo_link:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 120px;
+    height: 30px;
+
+    display:inline-block;
+    
+    position: relative;
+    bottom: 1.5rem;
+
+    font-family: 'Open Sans Condensed', 'Impact', sans-serif;
+}
+
+.logo span {
+    font-size: 10px;
+    position: relative;
+    bottom: 2.7rem;
+    left: 6.7rem;
+}
+
+.search {
+    width: 18.75rem;
+    
+    float: right;
+    position: relative;
+}
+
+/* Removes search bar if screen width is below 460px */
+@media screen and (max-width: 460px) {
+    .search {
+        display: none;
+    }
+}
+
+#search_bar {
+    width: 13rem;
+    height: 1.5rem;
+
+    position: relative;
+    left: 3.8em;
+}
+
+#search_button {
+    width: 2rem;
+    height: 1.85rem;
+
+    float: right;
+
+    background-image: url("Images/SearchIcon.png");
+    background-size: cover;
+}

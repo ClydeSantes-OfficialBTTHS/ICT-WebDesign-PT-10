@@ -1,0 +1,57 @@
+.main {
+    margin: 0;
+    padding: 1.875em 0.625em 1.875em 3.125em;
+}
+
+.main video {
+    object-fit: contain;
+}
+
+.main video, .video_info, .comments {
+    width: 100%;
+}
+
+.video_title, .video_uploader {
+    margin: 0.625rem 0 0 0;
+}
+
+.comments_title {
+    margin: 1.875rem 0 0 0;
+}
+
+.comments_table {
+    border-spacing: 0rem 1rem;
+}
+
+.comments_box {
+    width: 56.25rem;
+    padding: 0.3125rem;
+    border: 0.125rem solid rgb(134, 134, 134);
+    box-shadow: -0.1875rem 0.1875rem rgba(134, 134, 134, 0.671);
+
+    transition: 0.5s;
+}
+
+.comments_box:hover {
+    transform: scale(1.05);
+}
+
+.name_comment {
+    position: absolute;
+}
+
+.name_comment h4, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.profilepic {
+    width: 3.125rem;
+    height: 3.125rem;
+
+    float: left;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
