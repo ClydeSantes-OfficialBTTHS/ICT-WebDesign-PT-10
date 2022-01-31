@@ -9,6 +9,7 @@
 
 #logo_link {
     text-decoration: none;
+    color: black;
 }
 
 /* Removes underline and purple color to visited hyperlink */
